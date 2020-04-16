@@ -1,5 +1,5 @@
 ---
-layout: post4
+layout: post
 title: Test post 4
 tags: [A Tag, Test, Lorem, Ipsum]
 excerpt_separator: <!--more-->

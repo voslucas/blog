@@ -2,7 +2,7 @@
 layout: post
 title: Inter-application messaging in a serverless cloud-based environment.
 tags: [Cloud, Azure]
-color: brown
+color: rgb(241,89,42)
 ---
 
 Finding real-time communication for (desktop) applications which require instant messaging in serverless cloud solutions. 

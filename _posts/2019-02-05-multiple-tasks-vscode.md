@@ -3,7 +3,7 @@ layout: post
 title: Launch a browser in Visual Studio Code
 lead: Cross platform browser launch combined with another task in vs-code.
 tags: [VSCODE]
-color: brown
+color: rgb(241,89,42)
 excerpt_separator: <!--more-->
 ---
 During the setup of this blog, i needed Visual Studio Code to perform a build and watch task and also launch a browser at the same time. The default recommended extension, 'live-server', for watching and serving html files, wasn't going to help, because the tool already served as a webserver. I just needed a browser launch.

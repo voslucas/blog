@@ -16,7 +16,7 @@ Launching the default browser on Windows and OSX from a task in vs-code , can be
 
 Contents of taks.json:
 
-``` json
+```json
             "label": "Open browser",
             "type": "shell",
             "windows": {

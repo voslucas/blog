@@ -2,7 +2,7 @@
 layout: post
 title: STM32 Development setup with Visual Studio Code
 tags: [STM32, VSCODE]
-color: red
+color: brown
 excerpt_separator: <!--more-->
 ---
 Instructions for setting up a development environment for the STM32 family on Windows using Visual Studio Code. Multiple out-of-the-box solutions exists, for example [PlatformIO](https://platformio.org), but having full control over the toolchain can be usefull. 

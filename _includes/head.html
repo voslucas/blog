@@ -50,7 +50,10 @@
     
     {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}
-      <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css" media="screen" type="text/css">
+        {% capture cssfile %}
+        /assets/css/{{ stylesheet }}.css
+        {% endcapture %}
+      <link rel="stylesheet" href="{{ cssfile | relative_url }}" media="screen" type="text/css">
     {% endfor %}
     {% endif %}
     
@@ -59,7 +62,10 @@
     <!-- Hello 2 -->
     {% for js_file in page.custom_js %}
       <!-- Hello 3 -->
-      <script src='/assets/js/{{ js_file }}.js' type="text/javascript"></script>
+      {% capture jsfile %}
+      /assets/js/{{ js_file }}.js
+      {% endcapture %}
+      <script src="{{ jsfile | relative_url }}" type="text/javascript"></script>
     {% endfor %}
     {% endif %}
     

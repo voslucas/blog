@@ -55,16 +55,6 @@
     {% endfor %}
     {% endif %}
     
-    <!-- Hello 1 -->
-    {% if page.custom_js %}
-    <!-- Hello 2 -->
-    {% for js_file in page.custom_js %}
-      <!-- Hello 3 -->
-      {% capture jsfile %}/assets/js/{{ js_file }}.js{% endcapture %}
-      <script src="{{ jsfile | relative_url }}" type="text/javascript"></script>
-    {% endfor %}
-    {% endif %}
-    
 
 
     <!-- Google Analytics -->

@@ -29,6 +29,16 @@ layout: default
 
 </article>
 
+
+<!-- Page custom JS -->
+{% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+      {% capture jsfile %}/assets/js/{{ js_file }}.js{% endcapture %}
+      <script src="{{ jsfile | relative_url }}" type="text/javascript"></script>
+    {% endfor %}
+{% endif %}
+    
+
 <!-- Disqus -->
 {% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
 <div class="comments">

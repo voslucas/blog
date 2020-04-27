@@ -35,6 +35,10 @@
     <script src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
     {% endif %}
 
+    <!-- PAGE INFO
+      {{ page | jsonify }}
+    -->
+
     {% if page.needs_react %}
       <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
       <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
@@ -47,7 +51,7 @@
     {% endif %}
 
     <!-- Hello 1 -->
-    {% if page.custom_js %}
+    {% if include.custom_js %}
       <!-- Hello 2 -->
       {% for js_file in page.custom_js %}
         <!-- Hello 3 -->

@@ -4,6 +4,7 @@
     border-color: darkslategray;
     border-style: solid;
     display: inline-block;
+    width:126px;
   }
   .free tr {
     height: 30px;
@@ -24,6 +25,7 @@
     border-style: solid;
     background-color: lightgray;
     display: inline-block;
+    width:126px;
   }
   .board tr {
     height: 30px;

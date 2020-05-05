@@ -33,12 +33,12 @@ The game has 16 pieces, each with 4 characteristics : color (light, dark) , size
 [p16]: ../../../assets/img/quatro/16.png "piece 16"
 
 
-Characteristic | A | B
+Characteristic | - | - 
 --- | --- | ---
-Color | ![alt][p1] ![][p2] ![][p3] | ![][p5]![][p6]
-Size | <div><div class="qcells" data-pieces="1,2,3,4,9,10,11,12"></div></div> | <div class="qcells" data-pieces="5,6,7,8,13,14,15,16"></div>
-Shape | `<div class="qcells" data-pieces="1,2,5,6,9,10,13,14"></div>` | <div class="qcells" data-pieces="3,4,7,8,11,12,15,16"></div>
-Look | <div class="qcells" data-pieces="1,3,5,7,9,11,13,15"></div> | <div class="qcells" data-pieces="2,4,6,8,10,12,14,16"></div>
+Color | ![][p1]![][p2]![][p3]![][p4]![][p5]![][p6]![][p7]![][p8] | ![][p9]![][p10]![][p11]![][p12]![][p13]![][p14]![][p15]![][p16]
+Size | ![][p1]![][p2]![][p3]![][p4]![][p9]![][p10]![][p11]![][p12] | ![][p5]![][p6]![][p7]![][p8]![][p13]![][p14]![][p15]![][p16]
+Shape | ![][p1]![][p2]![][p5]![][p6]![][p9]![][p10]![][p13]![][p14] | ![][p3]![][p4]![][p7]![][p8]![][p11]![][p12]![][p15]![][p16] 
+Look | ![][p1]![][p3]![][p5]![][p7]![][p9]![][p11]![][p13]![][p15] | ![][p2]![][p4]![][p6]![][p8]![][p10]![][p12]![][p14]![][p16]
 
 ## Board
 

@@ -18,9 +18,9 @@ The game has 16 pieces, each with 4 characteristics : color (light, dark) , size
 
 Characteristic | A | B
 --- | --- | ---
-Color | \<div class="qcells" data-pieces="1,2,3,4,5,6,7,8"\>\</div\> | <div class="qcells" data-pieces="9,10,11,12,13,14,15,16"></div> 
-Size | <div class="qcells" data-pieces="1,2,3,4,9,10,11,12"></div> | <div class="qcells" data-pieces="5,6,7,8,13,14,15,16"></div>
-Shape |  <div class="qcells" data-pieces="1,2,5,6,9,10,13,14"></div> | <div class="qcells" data-pieces="3,4,7,8,11,12,15,16"></div>
+Color | <pre><div class="qcells" data-pieces="1,2,3,4,5,6,7,8"></div></pre> | <div class="qcells" data-pieces="9,10,11,12,13,14,15,16"></div> 
+Size | <div><div class="qcells" data-pieces="1,2,3,4,9,10,11,12"></div></div> | <div class="qcells" data-pieces="5,6,7,8,13,14,15,16"></div>
+Shape | `<div class="qcells" data-pieces="1,2,5,6,9,10,13,14"></div>` | <div class="qcells" data-pieces="3,4,7,8,11,12,15,16"></div>
 Look | <div class="qcells" data-pieces="1,3,5,7,9,11,13,15"></div> | <div class="qcells" data-pieces="2,4,6,8,10,12,14,16"></div>
 
 ## Board

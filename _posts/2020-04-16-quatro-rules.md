@@ -31,7 +31,7 @@ The game is inventend by [Blaise Muller](https://en.wikipedia.org/wiki/Quarto_(b
 [p15]: ../../../assets/img/quatro/15.png "p15"
 [p16]: ../../../assets/img/quatro/16.png "p16"
 
-The game has 16 pieces, each with 4 characteristics : `Color` (light ![][p5], dark ![][p13]) , `Size` (big ![][p1], small ![][p5]), `Shape` (square ![][p5], round ![][p7]) , `Filling` (solid ![][p15], hollow ![][p16]).
+The game has 16 pieces, each with 4 characteristics : `Color` ![light][p5]![dark][p13], `Size` ![big][p1]![small][p5], `Shape` ![square][p5]![round][p7] and `Filling` ![solid][p15]![hollow][p16].
 
 ## Board
 

@@ -70,7 +70,6 @@ h4 {
 }
 
 iframe,
-img,
 embed,
 object,
 video {
@@ -84,6 +83,10 @@ img[align=left] {
 
 img[align=right] {
   margin-left: 3%;
+}
+
+img {
+  vertical-align: text-bottom;
 }
 
 /* ---- Responsive ---- */
@@ -196,7 +199,7 @@ ol,
 ul,
 dl,
 .math-display {
-  line-height: 1.5;
+  line-height: 1.0;
   margin-bottom: 1em;
 }
 

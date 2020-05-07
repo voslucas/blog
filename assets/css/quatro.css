@@ -18,10 +18,16 @@
    margin:0px;
 }
 .free tr td img {
-  /* width: 26px; */
+  /* width: 26px; stonduit */
+  width: 26px;
   padding: 0px;
   margin: 0px;
 }
+
+.free tr td a img:hover {
+  background-color: lightskyblue;
+} 
+
 
 .board {
   border-width : 3px;
@@ -49,6 +55,16 @@
   padding: 0px;
   margin: 0px;
 }
+
+.board tr td a div {
+  width:26px;
+  height: 26px;
+}
+
+.board tr td a div:hover {
+  background-color: lightskyblue;
+} 
+
 
 .highlight {
   background-color: lightskyblue;

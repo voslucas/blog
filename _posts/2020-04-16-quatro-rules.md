@@ -10,7 +10,7 @@ tags: [Quatro, Games]
 ---
 *Quatro* is game for two players on 4x4 board and 16 pieces.
 <!--more-->
-The game is inventend by [Blaise Muller](https://en.wikipedia.org/wiki/Quarto_(board_game)), a Swiss mathematician and game designer. It is currently published by [Gigamic](https://en.gigamic.com/game/quarto-classic), a French company. <sup>[1](#fn1)</sup>
+The game is inventend by [Blaise Muller](https://en.wikipedia.org/wiki/Quarto_(board_game)), a Swiss mathematician and game designer. It is currently published by [Gigamic](https://en.gigamic.com/game/quarto-classic), a French company.
 
 ## Pieces
 
@@ -31,7 +31,7 @@ The game is inventend by [Blaise Muller](https://en.wikipedia.org/wiki/Quarto_(b
 [p15]: ../../../assets/img/quatro/15.png "p15"
 [p16]: ../../../assets/img/quatro/16.png "p16"
 
-The game has 16 pieces, each with 4 characteristics : `Color` ![light][p5]![dark][p13], `Size` ![big][p1]![small][p5], `Shape` ![square][p5]![round][p7] and `Filling` ![solid][p15]![hollow][p16].
+The game has 16 pieces, each with 4 characteristics. Color: ![light][p5]![dark][p13] Size: ![big][p1]![small][p5] Shape: ![square][p5]![round][p7] and Filling: ![solid][p15]![hollow][p16].
 
 ## Board
 
@@ -43,9 +43,8 @@ The board is a 4×4 board with 16 fields. At the beginning of the game, the piec
 The goal is to get a line of 4 pieces where each piece has a characteristic in common, for example: all light, all small, all round, etc. Hence the name *Quatro*. The line can be horizontal, vertical or diagonal, as shown here:
 <div class="qexplain"></div>
 
-Examples of a winning board: 
+Examples of a winning board.The four matching pieces are all hollow.  
 <div class="qboard" data-pieces="4,12,9,16, 13,11,5,2, 15,7,0,6, 10,1,3,14"></div>
-(The four pieces are all hollow.)
 
 > There is an additional rule/variant for advanced players. In this variant you can also win (get *quatro*) if you place four machting pieces in a square (2×2).
 
@@ -53,8 +52,8 @@ Examples of a winning board:
 
 The game is played in turns. In the first round, the starting player picks a piece and hand it over to the other player. After this initial round, the receiver place the piece on a free spot and picks one of the unplayed pieces, next to the boardgame, to handover to his opponent. And so on.. Until one achieves the *Quatro* state. If no more pieces are left, before a *Quatro*, the game is a draw.
 
-<div class="reactgame"></div>
+## Try it!
 
+You can try to play the game with the interactive board below.
 
-
-<a name="fn1">1</a>: 
+<div class="qinteractive"></div>
